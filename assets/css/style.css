@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;700&family=Source+Code+Pro&display=swap');
+/********************************HEADER-FIRST******************************************/
+
+.header-top-first{
+    background-color: rgb(60, 155, 219);
+}
+
+.header-top-left .header-icon{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.header-top-left .logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.header-top-center input{
+    border-radius: 25px;
+    width: 60%;
+    height: 39.5px;
+    padding-left: 10px;
+    font-size: 1.3rem;
+}
+
+.header-top-center i{
+    font-size: 2rem;
+}
+
+.header-top-right{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.header-top-right i{
+    font-size: 1.3rem;
+}
+
+/*************************************HEADER-SECOND*********************************************/
+
+.second.header-top-second{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    align-items: flex-start;
+}
+.second.header-top-second .header-top-left,
+.second.header-top-second .header-top-center,
+.second.header-top-second .header-top-right{
+    flex: 1;
+}
+
+.second.header-top-second .header-top-center:hover,
+.second.header-top-second .header-top-right:hover{
+    background-color: #cec5c5;
+}
+
+.second.header-top-second .header-top-right{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.second.header-top-second i{
+    font-size: 1.1rem;
+}
+
+.header-top-second .nav{
+    display: none;
+    border: 0.1px solid #ccc;
+    font-size: 1.1rem;
+    font-weight: normal;
+    box-shadow: 0.5px 0.5px 15px #323435;
+    border-radius: 10px;
+    z-index: 15;
+    background-color: white;
+}
+
+.header-top-second .nav a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header-top-second .nav a:hover{
+    background-color: rgb(231, 231, 244);
+    border-radius: 10px;
+}
+
+/***********************************HEADER-LEFT *************************************/
+.header-left{
+    width: 370px;
+    height: 100vh;
+    font-family: "Raleway";
+    background-color: #1d0000;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+    justify-content: space-between;
+    display: none;
+}
+
+.header-left a{
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.header-left a:hover{
+    background-color: rgb(132, 78, 78);
+}
+
+/***********************************FORMATION***************************************/
+
+.formation{
+    margin-bottom: 40px;
+}
+
+.formation-title{
+    font-size: 2rem;
+}
+
+.formation i{
+    font-size: 0.9rem;
+}
+
+.formation li{
+    border-radius: 40px;
+    border: 0.1px solid black;
+}
+
+.formation a{
+    padding: 15px;
+    font-weight: 500;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.last{
+    background-color: #10577a;
+    border-radius: 40px;
+    border: 0.1px solid #10577a;
+}
+
+/*************************** SOLUTION-FOMATIONS **************************************/
+
+.solution{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.solution-formation.flex{
+    width: 40%;
+    justify-content: space-around;
+    cursor: pointer;
+    padding: 30px;
+}
+
+.solution-formation i{
+    font-size: 5rem;
+}
+
+.solution-formation h2:hover{
+    color: white;
+}
+
+.formation1:hover{
+    background-color: #df0404;
+    color: white;
+}
+
+.formation2:hover{
+    background-color: #0095ff;
+    color: white;
+}
+
+.formation3:hover{
+    background-color: #3301fb;
+    color: white;
+}
+
+.formation4:hover{
+    background-color: #01ff55;
+    color: white;
+}
+
+.formation5:hover{
+    background-color: #ff00c3;
+    color: white;
+}
+
+.formation6:hover{
+    background-color: #5d00ff;
+    color: white;
+}
+
+
+.banner{
+    background-color: rgb(156, 218, 218);
+    color: white;
+    font-size: 4rem;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+}
+
+/*********************UNDER BANNER**************************/
+.under{
+    width: 75%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.under-first{
+    width: 60%;
+}
+
+.under-second{
+    width: 40%;
+    position: relative;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url("/assets/images/entreprise.jpg");
+    overflow: hidden;
+}
+
+#presentiel{
+    background-image: url("/assets/images/presentiel.jpg");
+}
+
+#online{
+    background-image: url("/assets/images/online.jpg");
+}
+
+#achat{
+    background-image: url("/assets/images/achat.jpg");
+}
+
+#assistance{
+    background-image: url("/assets/images/assistance.jpg");
+}
+
+#banque{
+    background-image: url("/assets/images/banque.jpg");
+}
+
+#bureautique{
+    background-image: url("/assets/images/bureautique.jpg");
+}
+
+#commercial{
+    background-image: url("/assets/images/commercial.jpg");
+}
+
+#communication{
+    background-image: url("/assets/images/communication.jpg");
+}
+
+#informatique{
+    background-image: url("/assets/images/informatique.jpg");
+}
+
+#organisation{
+    background-image: url("/assets/images/organisation.jpg");
+}
+
+.under-second#cpf{
+    background-color: orange;
+    background-image: url("");
+    padding: 20px;
+}
+
+#under-first{
+    border-radius: 10px;
+    background-color: #5d00ff;
+    padding: 20px;
+}
+
+.under-second#opco{
+    background-color: rgb(255, 38, 0);
+    background-image: url("");
+    padding: 20px;
+}
+
+/*********************************CONTACT****************************************/
+.contact{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.contact-first{
+    width: 30%;
+    box-sizing: border-box;
+}
+.contact-second{
+    width: 75%;
+}
+
+.side-block__wrapper, .side-contact__wrapper {
+    background: #f4f4f4;
+    padding-bottom: 30px;
+}
+
+.side-contact__header-title {
+    font-size: 18px;
+    text-align: center;
+}
+.side-block__header-title, .side-contact__header-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: block;
+    padding: 12px 0 12px 5px;
+    margin-top: 30px;
+}
+
+.side-block__body, .side-contact__body {
+    padding: 15px 12px 30px;
+    width: 80%;
+    background: #fff;
+    transform: translate(10%,10%);
+}
+
+.cta-secondary.light--dark {
+    color: #1d0000;
+    background: #fff;
+    border: 1px solid #1d0000;
+    
+}
+
+.page-column__cta-alt [class^=cta-] {
+    width: 100%!important;
+}
+
+[class^=cta-] {
+    cursor: pointer;
+    background: none;
+    box-sizing: border-box;
+    border: 0;
+    color: #222;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 9px 20px;
+    transition: 125ms ease-out;
+    text-decoration: none!important;
+    text-align: center;
+}
+
+.cta-secondary {
+    padding: 9px 18px;
+    border-radius: 40px;
+    font-weight: 600;
+    line-height: 1.25;
+    transition: transform .2s cubic-bezier(.165,.84,.44,1),color .2s cubic-bezier(.25,.46,.45,.94),background .15s cubic-bezier(.25,.46,.45,.94),box-shadow .2s cubic-bezier(.25,.46,.45,.94);
+    color: #fff;
+    background: #1d0000;
+    border: 1px solid transparent;
+}
+
+@media screen and (max-width:645px){
+/**************************************************HEADER-FIRST*****************************************/
+    .header-top-first.flex{
+        display: flex;
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+    .header-top-first .header-top-center,.header-top-first .header-top-right{
+        flex-wrap:nowrap;
+        flex: 0 1 auto;
+    }
+    .header-top-first .header-top-left{
+        flex-grow: 0;
+        gap: 5px;
+    }
+
+    .header-top-first .header-top-left i{
+        font-size: 1.4rem;
+    }
+
+    .header-top-first .header-top-left .logo{
+        width: 60px;
+    }
+
+    .header-top-first .header-top-center{
+        flex: none 1 none;
+    }
+
+    
+    .header-top-first .header-top-center input{
+        font-size: 1rem;
+    }
+
+    .header-top-first .header-top-center i{
+        display: none;
+    }
+
+    .header-top-first .header-top-right{
+        flex: none 1 none;
+        gap: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .header-top-first .header-top-right i{
+        font-size: 1rem;
+    }
+
+/**********************************************HEADER-SECOND*********************************************/
+
+    .second.header-top-second{
+        font-size: 1.1rem;
+        font-weight: 500;
+        justify-content: center;
+    }
+    
+    .second.header-top-second .content{
+        padding: 0 10px;
+    }
+    
+    .second.header-top-second .header-top-center,
+    .second.header-top-second .header-top-right{
+        flex: 0 1 auto;
+        flex-wrap: nowrap;
+    }
+    
+    .second.header-top-second .header-top-right{
+        font-size: 1.1rem;
+        flex: 0 1 auto;
+        font-weight: 500;
+    }
+    
+    [class="fa-solid fa-arrow-turn-down"]{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:605px){
+    .formation ul{
+        flex-direction: column;
+    }
+}
+
+
